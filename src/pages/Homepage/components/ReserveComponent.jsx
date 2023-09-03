@@ -9,7 +9,9 @@ function ReserveComponent() {
         <h4>Chicago</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
         
-        <button className="homepage-button" type="button">Reserve a Table</button>
+        <a href="/booking">
+          <button className="homepage-button" type="button">Reserve a Table</button>
+        </a>
       </div>
       
       <div className="image-container">

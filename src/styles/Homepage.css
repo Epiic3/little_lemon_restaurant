@@ -1,6 +1,6 @@
-/* .homepage-container {
-  background-color:#495e57;
-} */
+.homepage-container {
+  margin: 50px 0 40px;
+}
 
 .reserve-container {
   display: flex;
@@ -28,6 +28,7 @@
   background-color: #f4ce14;
   border: 0;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .text-container h1 {
@@ -43,3 +44,47 @@
   position: relative;
   top: 30px;
 }
+
+.specials-header {
+  text-align: center;
+  margin: 50px 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.specials-container {
+  margin: 20px 0;
+  width: 90%;
+  margin: auto;
+}
+
+.specials-card-container {
+  display: flex;
+  width: 90%;
+  padding: 0 10%;
+}
+
+.card-container {
+  width: 30%;
+  margin: auto;
+  background-color: #edefee;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-container h4 {
+  font-size: 1.4rem;
+  margin: 10px 0;
+  padding: 0 20px;
+}
+
+.card-container p {
+  font-size: 1.1rem;
+  /* margin: 10px; */
+  padding : 30px 20px;
+}
+
+
+

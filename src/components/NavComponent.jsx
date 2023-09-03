@@ -11,12 +11,12 @@ function NavComponent() {
         </Link>
 
         <div className="header-links">
-          <NavLink to="/" className={({ isActive }) => isActive ? 'link active-link' : 'link'}>Home</NavLink>
-          <NavLink to="/about" className={({ isActive }) => isActive ? 'link active-link' : 'link'}>About</NavLink>
-          <NavLink to="/menu" className={({ isActive }) => isActive ? 'link active-link' : 'link'}>Menu</NavLink>
-          <NavLink to="/booking" className={({ isActive }) => isActive ? 'link active-link' : 'link'}>Reservations</NavLink>
-          <NavLink to="/order-online" className={({ isActive }) => isActive ? 'link active-link' : 'link'}>Order online</NavLink>
-          <NavLink to="/login" className={({ isActive }) => isActive ? 'link active-link' : 'link'}>Login</NavLink>
+          <NavLink to="/" className={({ isActive }) => isActive ? 'active-link' : ''}>Home</NavLink>
+          <NavLink to="/about" className={({ isActive }) => isActive ? 'active-link' : ''}>About</NavLink>
+          <NavLink to="/menu" className={({ isActive }) => isActive ? 'active-link' : ''}>Menu</NavLink>
+          <NavLink to="/booking" className={({ isActive }) => isActive ? 'active-link' : ''}>Reservations</NavLink>
+          <NavLink to="/order-online" className={({ isActive }) => isActive ? 'active-link' : ''}>Order online</NavLink>
+          <NavLink to="/login" className={({ isActive }) => isActive ? 'active-link' : ''}>Login</NavLink>
         </div>
       </nav>
     </header>
