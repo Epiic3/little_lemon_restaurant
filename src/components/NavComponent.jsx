@@ -18,6 +18,8 @@ function NavComponent() {
           <NavLink to="/order-online" className={({ isActive }) => isActive ? 'active-link' : ''}>Order online</NavLink>
           <NavLink to="/login" className={({ isActive }) => isActive ? 'active-link' : ''}>Login</NavLink>
         </div>
+
+        <div>{true}</div>
       </nav>
     </header>
   )
